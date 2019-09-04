@@ -1,0 +1,10 @@
+{
+    "app": {
+        "port": 8081
+      },
+      "users": {
+        "admin1": "op123",
+        "admin2": "op@123"
+      },
+      "secret": "this is sparta"
+}

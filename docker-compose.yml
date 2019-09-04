@@ -1,0 +1,10 @@
+version: '3'
+services:
+  web:
+    build: .
+    command: npm run dev
+    ports:
+      - "8081:8081"
+    volumes:
+      - .:/usr/app
+      - /usr/node_modules
